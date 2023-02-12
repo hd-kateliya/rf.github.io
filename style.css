@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+}
+
+#name {
+    height: 26px;
+}
+
+#email {
+    height: 26px;
+}
+
+#password {
+    height: 26px;
+}
+
+#dob {
+    height: 26px;
+    width: 165px;
+}
+
+#nameBox {
+    padding-left: 120px;
+    height: 26px;
+}
+
+#emailBox {
+    padding-left: 121px;
+    height: 26px;
+}
+
+#passBox {
+    padding-left: 89px;
+    height: 26px;
+}
+
+#dobBox {
+    padding-left: 60px;
+    height: 26px;
+}
+
+#nameDiv {
+    display: flex;
+    margin-top: 21px;
+    padding-left: 100px;
+}
+
+#emailDiv {
+    display: flex;
+    margin-top: 21px;
+    padding-left: 100px;
+}
+
+#passwordDiv {
+    display: flex;
+    margin-top: 21px;
+    padding-left: 100px;
+}
+
+#dobDiv {
+    display: flex;
+    margin-top: 21px;
+    padding-left: 100px;
+}
+
+#termsDiv {
+    display: flex;
+    padding-left: 5px;
+}
+
+#termsBox {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 100px;
+
+}
+
+.container {
+    display: inline-block;
+    width: 80%;
+    padding: 8px 8px 8px 8px;
+    /*border: 2px solid gray;*/
+}
+
+.box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submitBtn {
+    display: flex;
+    padding-left: 97px;
+    padding-top: 23px;
+}
+
+#submit:hover{
+    background-color:rgb(17, 230, 125);
+}
+
+#submit {
+    width: 86px;
+    height: 35px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0ch;
+    border-radius: 10px;
+    background-color:rgb(31, 207, 120);
+}
+
+/* table CSS start from here*/
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(196, 255, 225);
+}
+
+table,
+th,
+td {
+    border: 2.9px solid rgb(9, 0, 128);
+    padding: 4px;
+}
+
+th {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
